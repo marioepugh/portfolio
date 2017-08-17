@@ -10,6 +10,13 @@ p {
   /*background-color: white;*/
 }
 
+.inner {
+  display: inline-block;
+ margin-top: 40px;
+ margin-right: 75px;
+ 
+}
+
 body {
   background-color: grey;
 }
@@ -35,6 +42,10 @@ body {
   margin: 20px 5px;
 }
 
+.footer {
+  inline-block;
+}
+
 .copy_text {
   font-family: Helvetica;
   font-size: 0.8em;
@@ -50,4 +61,14 @@ header img {
 
 img {
   <img src="http://placehold.it/300x375/000000" style="height:80%;">
+}
+
+head .div {
+  inline: block;
+}
+
+header ul li {
+display: inline-block;
+margin-top: 40px;
+margin-right: 75px;
 }
