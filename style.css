@@ -1,73 +1,72 @@
-    * {
-    color: blue;
-  }
-
-  p {
-    border: 3px;
-    border-style: solid;
-    border-color: #FF0000;
-    padding: 1em;
-  }
-
-  .inner {
-    display: inline-block;
-    margin-top: 40px;
-    margin-right: 75px;
-  }
-
-  body {
-    background-color: grey;
-  }
-
-  .footer {
-    width: 100%;
-    min-height: 132px;
-    background-color: #404040;
-    text-align: center
-  }
-
-  .footer .fa {
-    display: inline-block;
-    vertical-align: middle;
-    color: #444;
-    font-size: 2.2em;
-    background-color: #fff;
-    border: 4px solid #E6E6FA;
-    border-radius: 48px;
-    height: 52px;
-    line-height: 44px;
-    width: 52px;
-    margin: 20px 5px;
-  }
-
-  .footer {
-    inline-block;
-  }
-
-  .copy_text {
-    font-family: Helvetica;
-    font-size: 0.8em;
-    font-style: normal;
-    color: #fff;
-  }
-
-  .featured_section img {
-    float: right;
-    width: 50%;
-    margin-top: 20px;
-    margin-right: 25px;
-  }
-
-  .footer {
-    alight: left;
-  }
-
-  @media only screen and (max-width: 501px) {
-    body {
-      background-color: lightblue;
-    }
-  @media only screen and (min-width: 640px) {
-      .icon-menu {
-        display: none;
+        * {
+        color: blue;
       }
-    }
+
+      p {
+        border: 3px;
+        border-style: solid;
+        border-color: #FF0000;
+        padding: 1em;
+      }
+
+      .inner {
+        display: inline-block;
+        margin-top: 40px;
+        margin-right: 75px;
+      }
+
+      body {
+        background-color: grey;
+      }
+
+      .footer {
+        width: 100%;
+        min-height: 132px;
+        background-color: #404040;
+        text-align: center
+      }
+
+      .footer .fa {
+        display: inline-block;
+        vertical-align: middle;
+        color: #444;
+        font-size: 2.2em;
+        background-color: #fff;
+        border: 4px solid #E6E6FA;
+        border-radius: 48px;
+        height: 52px;
+        line-height: 44px;
+        width: 52px;
+        margin: 20px 5px;
+      }
+
+      .copy_text {
+        font-family: Helvetica;
+        font-size: 1.0em;
+        font-style: normal;
+        color: #fff;
+        text-align: left;
+        margin: 20px;
+      }
+
+      .featured_section img {
+        float: right;
+        width: 50%;
+        margin-top: 20px;
+      }
+
+      button {
+        alight: left;
+        font-size: 1.0em;
+        margin: 20px 15px;
+      }
+
+      @media only screen and (max-width: 501px) {
+        body {
+          background-color: lightblue;
+        }
+        @media only screen and (min-width: 640px) {
+          .icon-menu {
+            display: none;
+          }
+        }
