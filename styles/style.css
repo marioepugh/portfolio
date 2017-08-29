@@ -65,29 +65,36 @@
       .icon-menu {
         display: none;
       }
+
       @media only screen and (min-width: 640px) {
         .footer . {
           display: none;
         }
+
         .main-nav {
           padding: .2em .2em .2em 2em;
         }
+
         .main-nav ul {
           display: block;
         }
+
         .main-nav ul li {
           display: inline;
           border-bottom: none;
         }
+
         .main-nav ul li:hover a {
           color: #29506D;
         }
+
         .footer {
           width: 100%;
           min-height: 132px;
           background-color: #46A8B8;
           text-align: center
         }
+
         .footer .fa {
           display: inline-block;
           vertical-align: middle;
@@ -101,11 +108,13 @@
           width: 52px;
           margin: 20px 5px;
         }
+
         button {
           alight: left;
           font-size: 1.0em;
           margin: 20px 15px;
         }
+
         .copy_text {
           font-family: Helvetica;
           font-size: 1.0em;
@@ -114,17 +123,17 @@
           text-align: center;
           margin: 20px;
         }
-        * {
-          box-sizing: border-box
-        }
+
         .slideshow-container {
           max-width: 1000px;
           position: relative;
           margin: auto;
         }
+
         .mySlides {
           display: none;
         }
+
         .prev, .next {
           cursor: pointer;
           position: absolute;
@@ -138,6 +147,7 @@
           transition: 0.6s ease;
           border-radius: 0 3px 3px 0;
         }
+
         .next {
           right: 0;
           border-radius: 3px 0 0 3px;
