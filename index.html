@@ -10,8 +10,23 @@
   <link href="styles/style.css" rel="stylesheet">
   <script src="https://use.fontawesome.com/7d9295abc6.js"></script>
   <style>
-
   </style>
+
+  <script id="repo-template" type="text/x-handlebars-template">
+        <li>
+          <a href="{{html_url}}" target="_blank">
+            <h3>{{name}}</h3>
+          </a>
+          <p>Description: {{description}}</p>
+          <p>Language: {{language}}</p>
+          <p>Created: {{created_at}}</p>
+          <p>Last updated: {{updated_at}}</p>
+          {{#if watchers_count}}
+            <p>{{watchers_count}} watching this repo</p>
+          {{/if}}
+        </li>
+      </script>
+
 </head>
 
 <body>
