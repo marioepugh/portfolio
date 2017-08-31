@@ -1,3 +1,7 @@
+'use strict';
+
+
+
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -15,6 +19,7 @@ function showSlides(n) {
 }
 
 $('#showSlides')
+
 
 $('#home').show();
 
@@ -59,3 +64,13 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+const conString =  process.env.DATABASE_URL || 'postgres://localhost:5432';
+function proxyGitHub(request, response) {
+  console.log('Routing GitHub request for', request.params[0]);
+  (requestProxy({
+    url: `https://api.github.com/${request.params[0]}`,
+    headers: {Authorization: `token ${process.env.GITHUB_TOKEN}`}
+  }))(request, response);
+}
+
+app.get('/github/*', proxyGitHub);
