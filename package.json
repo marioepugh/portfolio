@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "mario.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marioepugh/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "mario",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marioepugh/portfolio/issues"
+  },
+  "homepage": "https://github.com/marioepugh/portfolio#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "express-request-proxy": "^2.0.0"
+  }
+}
